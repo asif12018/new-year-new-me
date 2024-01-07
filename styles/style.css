@@ -1,0 +1,72 @@
+/* google fonts import link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+/*===========default css link here==========*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.col-70 {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.col-30 {
+    width: 30%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.col-33 {
+    display: 33.33%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.col-40 {
+    display: 40%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.col-60 {
+    display: 60%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.col-50 {
+    display: 50%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* ==========Header section start from here============ */
+
+.header-content {
+    text-align: center;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/Banner-Image.png');
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.header-content h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.header-content h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
