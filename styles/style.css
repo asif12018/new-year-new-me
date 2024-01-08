@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
 
 /*===========default css link here==========*/
+/*==NB: col-30 or col-70 there not any css libray. im using my own precreated css 
+shortcut to design this more easily.
+==*/
+
 * {
     margin: 0;
     padding: 0;
@@ -220,8 +224,6 @@ header {
 .welcome-img img:hover{
     scale: 1.1;
     box-shadow: 12px 15px 25px -2px rgba(0,0,0,0.72);
--webkit-box-shadow: 12px 15px 25px -2px rgba(0,0,0,0.72);
--moz-box-shadow: 12px 15px 25px -2px rgba(0,0,0,0.72);
 }
 
 /* ======rutine section start from here======= */
