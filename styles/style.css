@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
 
 /*===========default css link here==========*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -23,7 +28,7 @@
 .col-33 {
     display: 33.33%;
     margin: 0 auto;
-    padding: 0 15px;
+    /* padding: 0 15px;  */
 }
 
 .col-40 {
@@ -86,6 +91,7 @@ header {
     color: #F00;
     font-size: 88px;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 
 .offer-content p {
@@ -95,12 +101,14 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin: 20px 0;
 }
 
 .offer-content h3 {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 40px;
 
 }
 
@@ -121,7 +129,7 @@ header {
 
 .welcome-content {
     text-align: left;
-
+    margin-top: 60px;
 }
 
 #welcome-section {
@@ -156,6 +164,7 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin: 24px 0;
 }
 
 .welcome-content a {
@@ -205,6 +214,7 @@ header {
     border-radius: 8px;
     background: #F00;
     border: none;
+    margin-top: 40px;
 }
 
 /* =========coming soon section=========== */
@@ -237,6 +247,7 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
 }
 
 .left-content h2 {
@@ -245,6 +256,7 @@ header {
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
+    margin: 24px 0;
 }
 
 .left-content p {
@@ -270,4 +282,236 @@ header {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    margin: 24px 0;
+}
+
+/* =======holiday sale start from here======== */
+.holiday-content h5 {
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.holiday-content h2 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.holiday-content h2 span {
+    color: #F00;
+}
+
+.holiday-content p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+#holiday-sale-section {
+    margin: 0 auto;
+}
+
+#holiday-sale-section .top-img {
+    position: relative;
+}
+
+#holiday-sale-section .top-img img {
+    float: right;
+}
+
+#holiday-sale-section .bottom-img {
+    width: 1510px;
+    /* position: relative; */
+}
+
+#holiday-sale-section .bottom-img img {
+    width: 1510px;
+
+
+
+}
+
+.bottom-img {
+    background: url('../image/Group-75.png');
+    background-repeat: no-repeat;
+    background-position: top bottom;
+
+
+
+}
+
+.discount {
+    position: absolute;
+    right: 25%;
+    margin-top: 80px;
+}
+
+#holiday-sale-section {
+    margin: 80px 0;
+}
+
+/* ======collection section start from here====== */
+
+.collection-content h5 {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.collection-content h3 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+
+.collection-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.img-collections {
+    display: flex;
+
+}
+
+.img-box {
+    width: 524px;
+
+
+}
+
+.img-box img {
+    width: 100%;
+
+}
+
+.collection-img-container {
+    margin: 0 20px;
+}
+
+#collection-section {
+    margin: 60px 0;
+}
+
+/*======email subscribtion section start from here=====*/
+
+.email-subscribtion-content {
+    text-align: center;
+}
+
+form input[type='email'] {
+    width: 648px;
+    padding: 20px;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    border: none;
+}
+
+.email-subscribtion-content {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+}
+
+form input[type='submit'] {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+
+    text-transform: capitalize;
+    margin-left: -20px;
+}
+
+.email-subscribtion-content img {
+    width: 150px;
+    height: 150px;
+}
+
+.email-subscribtion-content h3 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.email-subscribtion-content p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 22px;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.footer-top {
+    display: flex;
+    color: #FFF;
+
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
+
+}
+
+footer {
+    background: #070211;
+    color: white;
+}
+
+.call,
+.web {
+    display: flex;
+}
+
+.call,
+.web {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.footer-container {
+    padding: 120px 0;
+
 }
