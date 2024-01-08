@@ -48,6 +48,44 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+/*==========default animation==========*/
+.btn{
+    transition: 0.1s;
+}
+.btn:hover{
+    background: wheat;
+    color: red;
+}
+
+@-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .slide-in-left {
+	-webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 
 /* ==========Header section start from here============ */
 
@@ -400,7 +438,11 @@ header {
 
 .img-box img {
     width: 100%;
+    transition: 0.8s;
 
+}
+.img-box img:hover{
+    scale: 1.1;
 }
 
 .collection-img-container {
@@ -446,6 +488,13 @@ form input[type='submit'] {
 .email-subscribtion-content img {
     width: 150px;
     height: 150px;
+    transition: 0.8s;
+}
+.email-subscribtion-content img:hover{
+    scale: 1.1;
+    box-shadow: 12px 15px 25px -2px rgba(0,0,0,0.72);
+-webkit-box-shadow: 12px 15px 25px -2px rgba(0,0,0,0.72);
+-moz-box-shadow: 12px 15px 25px -2px rgba(0,0,0,0.72);
 }
 
 .email-subscribtion-content h3 {
@@ -523,6 +572,12 @@ footer {
 
     padding: 60px 0;
 
+}
+.footer-middle img{
+    transition: 0.5s;
+}
+.footer-middle img:hover{
+    scale: 1.5;
 }
 
 .footer-bottom {
