@@ -214,6 +214,15 @@ header {
     text-transform: uppercase;
     text-decoration: none;
 }
+.welcome-img img{
+    transition: 0.8s;
+}
+.welcome-img img:hover{
+    scale: 1.1;
+    box-shadow: 12px 15px 25px -2px rgba(0,0,0,0.72);
+-webkit-box-shadow: 12px 15px 25px -2px rgba(0,0,0,0.72);
+-moz-box-shadow: 12px 15px 25px -2px rgba(0,0,0,0.72);
+}
 
 /* ======rutine section start from here======= */
 
@@ -271,6 +280,10 @@ header {
     width: 100%;
 
     margin: 3px;
+    transition: 0.5s;
+}
+.coming-img-container img:hover{
+    scale: 1.1;
 }
 
 .coming-img {
@@ -331,6 +344,10 @@ header {
     font-weight: 500;
     text-align: center;
     margin-bottom: 16px;
+    transition: 0.8s;
+}
+.holiday-content h5:hover{
+    scale: 1.1;
 }
 
 .holiday-content h2 {
@@ -340,6 +357,10 @@ header {
     font-weight: 900;
     text-align: center;
     margin-bottom: 40px;
+    transition: 0.8s;
+}
+.holiday-content h2:hover{
+    scale: 1.1;
 }
 
 .holiday-content h2 span {
@@ -355,6 +376,10 @@ header {
     font-weight: 500;
     line-height: 32px;
     margin-bottom: 20px;
+    transition: 0.8s;
+}
+.holiday-content p:hover{
+    scale: 1.1;
 }
 
 #holiday-sale-section {
@@ -404,6 +429,10 @@ header {
     font-family: 'Inter';
     font-size: 24px;
     font-weight: 500;
+    transition: 0.8s;
+}
+.collection-content h5:hover{
+    scale: 1.1;
 }
 
 .collection-content h3 {
@@ -413,6 +442,10 @@ header {
     font-weight: 900;
     text-transform: capitalize;
     margin: 20px 0;
+    transition: 0.8s;
+}
+.collection-content h3:hover{
+    scale: 1.1;
 }
 
 .collection-content p {
@@ -423,6 +456,10 @@ header {
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 20px;
+    transition: 0.8s;
+}
+.collection-content p:hover{
+    scale: 1.1;
 }
 
 .img-collections {
@@ -507,6 +544,10 @@ form input[type='submit'] {
     line-height: normal;
     text-transform: capitalize;
     margin-top: 40px;
+    transition: 0.8s;
+}
+.email-subscribtion-content h3:hover{
+    scale: 1.1;
 }
 
 .email-subscribtion-content p {
@@ -518,6 +559,10 @@ form input[type='submit'] {
     font-weight: 400;
     line-height: 32px;
     margin: 22px;
+    transition: 0.8s;
+}
+.email-subscribtion-content p:hover{
+    scale: 1.1;
 }
 
 .form-container {
